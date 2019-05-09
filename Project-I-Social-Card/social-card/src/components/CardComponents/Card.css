@@ -8,6 +8,8 @@
 
     margin: 0 auto;
     width: 800px;
+    text-decoration: none;
+    color: black;
 }
 
 .CardContainer .CardBanner {
