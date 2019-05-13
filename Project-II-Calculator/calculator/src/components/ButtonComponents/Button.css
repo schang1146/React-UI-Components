@@ -1,0 +1,21 @@
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    border: 1px gray solid;
+}
+
+.btn-num {
+    width: 112px;
+    height: 94px;
+    font-weight: 1000;
+    background-color: #FFFFFF;
+    color: #000000
+}
+
+.btn-act {
+    width: 120px;
+    height: 94px;
+    font-weight: normal;
+    background-color: #9C001A;
+    color: #FFFFFF;
+}
