@@ -1,4 +1,8 @@
 .disp {
     font-family: 'Roboto', sans-serif;
     font-size: 44px;
+
+    border: 1px gray solid;
+
+    width: 448px;
 }
