@@ -1,1 +1,36 @@
 /* All styles for your Card Components live here */
+.CardContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin: 0 auto;
+    width: 800px;
+    text-decoration: none;
+    color: black;
+}
+
+.CardContainer .CardBanner {
+    border-radius: 10px 10px 0 0;
+    width: 735px;
+    margin-left: 65px;
+}
+
+.CardContainer .CardContent {
+    padding: 25px;
+    margin-left: 65px;
+
+    border: 1px #bebebe solid;
+}
+
+.CardContainer .CardContent .CardTitle {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.CardContainer .CardContent .CardLink {
+    text-decoration: none;
+    color: gray;
+}

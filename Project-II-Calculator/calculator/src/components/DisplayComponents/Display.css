@@ -1,0 +1,15 @@
+.disp {
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    border: 1px gray solid;
+    background-color: #222222;
+    color: #FFFFFF;
+
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+    width: 446px;
+    height: 94px;
+
+    text-align: right;
+}

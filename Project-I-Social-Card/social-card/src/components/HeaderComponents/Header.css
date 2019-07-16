@@ -1,1 +1,64 @@
 /* All styles for your header Components live here */
+.HeaderContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 800px;
+}
+
+.HeaderContainer .ImageThumbnail {
+    width: 50px;
+}
+
+.HeaderContainer .Placeholder1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 725px;
+}
+
+.HeaderContainer .HeaderTitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-left: 15px;
+}
+
+.HeaderContainer .HeaderTitle .HeaderName {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.HeaderContainer .HeaderTitle .HeaderHandle {
+    margin: 0px;
+    margin-left: 15px;
+    color: gray;
+}
+
+.HeaderContainer .HeaderTitle .HeaderDate {
+    text-decoration: none;
+    color: gray;
+    margin-left: 10px;
+}
+
+.HeaderContainer .HeaderTitle .HeaderDate::before {
+    content: '\00b7';
+    font-weight: bold;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.HeaderContainer .HeaderContent {
+    margin-left: 15px;
+}
